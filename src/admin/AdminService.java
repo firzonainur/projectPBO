@@ -2,6 +2,7 @@ package admin;
 
 import javax.swing.table.DefaultTableModel;
 
+//interface
 public interface AdminService {
 
     public void insert(Admin admin);

@@ -1,7 +1,7 @@
 /*
- * Iwanda Kusuma
- * 1510530207
- * STMIK BUMIGORA MATARAM | Be Informatics 1
+ * Firzon Ainur
+ * 180535632548
+ * UM
  */
 package admin;
 
@@ -103,6 +103,8 @@ public final class AdminForm extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Data Kosong");
         }
     }
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -189,6 +191,12 @@ public final class AdminForm extends javax.swing.JFrame {
         btnUbah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUbahActionPerformed(evt);
+            }
+        });
+
+        tfnoHP.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tfnoHPActionPerformed(evt);
             }
         });
 
@@ -314,6 +322,10 @@ public final class AdminForm extends javax.swing.JFrame {
     private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanActionPerformed
         save();
     }//GEN-LAST:event_btnSimpanActionPerformed
+
+    private void tfnoHPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfnoHPActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tfnoHPActionPerformed
 
     /**
      * @param args the command line arguments

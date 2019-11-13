@@ -1,7 +1,7 @@
 package admin;
 
 public class Admin {
-
+//enkapsulasi
     private int id;
 
     private String nama;

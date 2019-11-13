@@ -42,6 +42,7 @@ public final class frmain extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel2 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         akses = new javax.swing.JMenu();
         mlogin = new javax.swing.JMenuItem();
@@ -52,6 +53,8 @@ public final class frmain extends javax.swing.JFrame {
         Bgaji = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/imgkar2.jpg"))); // NOI18N
 
         akses.setText("Akses");
 
@@ -103,11 +106,11 @@ public final class frmain extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1051, Short.MAX_VALUE)
+            .addComponent(jLabel2)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 622, Short.MAX_VALUE)
+            .addComponent(jLabel2)
         );
 
         pack();
@@ -174,6 +177,7 @@ public final class frmain extends javax.swing.JFrame {
     private javax.swing.JMenu bayarGaji;
     private javax.swing.JMenu data;
     public static javax.swing.JMenuItem dtAdmin;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JMenuBar jMenuBar1;
     public static javax.swing.JMenuItem mlogin;
     public static javax.swing.JMenuItem mlogout;
